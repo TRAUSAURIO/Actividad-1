@@ -1,56 +1,26 @@
-Taller POO - Gestión de Tienda
-Programas incluidos:
-TiendaEstructurada.java - Versión con programación estructurada
+# Taller POO - Gestión de Tienda
 
-TiendaApp.java - Versión con programación orientada a objetos
+## Programas incluidos:
 
-Producto.java - Clase Producto con encapsulamiento
+1. **TiendaEstructurada.java** - Versión con programación estructurada
+2. **TiendaApp.java** - Versión con programación orientada a objetos
+3. **Producto.java** - Clase Producto con encapsulamiento
+4. **Tienda.java** - Versión extendida con clase Tienda
 
-Tienda.java - Versión extendida con clase Tienda
+## Cómo ejecutar:
+Compilar: `javac src/*.java`
+Ejecutar: `java src/NombreDelPrograma`
 
-Cómo ejecutar:
-Compilar: javac src/*.java
-Ejecutar: java src/NombreDelPrograma
+## Respuestas a las Preguntas de Reflexión
 
-Respuestas a las Preguntas de Reflexión
-1. ¿Qué ventajas observas en la versión orientada a objetos?
-Encapsulamiento: Los datos y comportamientos del producto están agrupados en una clase
+1. **¿Qué ventajas observas en la versión orientada a objetos?**  
+   Encapsulamiento de datos y métodos, reutilización de la clase Producto, mejor mantenibilidad y organización del código.
 
-Reutilización: La clase Producto puede usarse múltiples veces
+2. **¿Qué parte del código resultó más clara o fácil de mantener?**  
+   La clase Producto, porque concentra su lógica, cada método cumple su rol y los atributos privados protegen los datos.
 
-Mantenibilidad: Cambios se realizan en un solo lugar
+3. **¿Cómo podrías extender el programa para manejar más productos?**  
+   Usar `ArrayList`, implementar búsquedas, guardar datos en archivos, crear categorías y permitir editar o eliminar productos.
 
-Organización: Código mejor estructurado y más legible
-
-2. ¿Qué parte del código resultó más clara o fácil de mantener?
-La clase Producto porque:
-
-Toda la lógica del producto está centralizada
-
-Cada método tiene una función específica
-
-Los atributos privados protegen los datos
-
-Modificaciones se hacen en un solo archivo
-
-3. ¿Cómo podrías extender el programa para manejar más productos?
-Usar ArrayList en lugar de arrays estáticos
-
-Implementar búsqueda de productos por nombre
-
-Agregar persistencia con archivos
-
-Crear categorías para organizar productos
-
-Añadir métodos para editar y eliminar productos
-
-4. ¿Podrías agregar una clase Tienda que contenga los productos y calcule el total?
-Sí, la clase Tienda está implementada y ofrece:
-
-Gestión centralizada de productos
-
-Cálculo automático del total general
-
-Métodos para agregar, buscar y mostrar productos
-
-Escalabilidad para cualquier cantidad de productos
+4. **¿Podrías agregar una clase Tienda que contenga los productos y calcule el total?**  
+   Sí. La clase Tienda permite administrar productos, calcular el total y escalar a cualquier cantidad de elementos.
